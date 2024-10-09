@@ -40,8 +40,11 @@ The user must specify the kernel `buffer_size` and the read/write `data_size` be
 
 ### Sample I/O Ops
 `make`
+
 `insmod chardev.ko`
+
 `gcc userprocess.c -o user`
+
 `./user`
 
         
