@@ -20,21 +20,21 @@ The user must specify the kernel `buffer_size` and the read/write `data_size` be
 
 ### Write
 
-    - The buffer write is always sequential. At any given time, the user can only write `data_size` bytes. If the write input size is greater than `data_size`, only the first `data_size` bytes will be considered. If the buffer is full, the subsequent writes will overwrite the exisiting buffer content.
+- The buffer write is always sequential. At any given time, the user can only write `data_size` bytes. If the write input size is greater than `data_size`, only the first `data_size` bytes will be considered. If the buffer is full, the subsequent writes will overwrite the exisiting buffer content.
 
 ### Read
 
-    - This option lets the user to read `data_size` bytes at a time. The subsequent reads  point to the next available data. The user is also provided with the following options on what to do with the read data:
-        - Clear the read data [c]: User can clear the currently read data. This option frees up the buffer space for some new writes. 
-        - Replace the read data [r]: User can replace the currently read data with a new data. 
-        - Simply Ignore the read data [n]: No action is taken, only for the monitoring purpose.
+- This option lets the user to read `data_size` bytes at a time. The subsequent reads  point to the next available data. The user is also provided with the following options on what to do with the read data:
+    - Clear the read data [c]: User can clear the currently read data. This option frees up the buffer space for some new writes. 
+    - Replace the read data [r]: User can replace the currently read data with a new data. 
+    - Simply Ignore the read data [n]: No action is taken, only for the monitoring purpose.
 
 
 ### Empty
 
-    - The user can clear the entire content of buffer using this option. 
+- The user can clear the entire content of buffer using this option. 
 
 ### Display
 
-    - To view the current content of the buffer, this option must be utilized.
+- To view the current content of the buffer, this option must be utilized.
 
