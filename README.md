@@ -38,3 +38,10 @@ The user must specify the kernel `buffer_size` and the read/write `data_size` be
 
 - To view the current content of the buffer, this option must be utilized.
 
+### Sample I/O Ops
+
+        -`make`
+        -`insmod chardev.ko`
+
+        
+
