@@ -22,4 +22,4 @@ The user must specify the kernel `buffer_size` and the read/write `data_size` be
 
 ### write
 
-- The buffer write is always sequential. At any given time, the user can only write `data_size` bytes. If the write input size is greater than `data_size', only the first `data_size` bytes will be considered. If the buffer is full, the subsequent writes will overwrite the exisiting buffer content.
+- The buffer write is always sequential. At any given time, the user can only write `data_size` bytes. If the write input size is greater than `data_size`, only the first `datasize` bytes will be considered. If the buffer is full, the subsequent writes will overwrite the exisiting buffer content.
