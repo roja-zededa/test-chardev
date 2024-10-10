@@ -49,7 +49,19 @@ Please make sure the kernel version is blah to avoid compilation issues.
 
 `./user`
 
-        
-
-        
-
+### Possible Test cases
+1. `buffer size empty`
+2. `data size allocator larger than buffer size`
+3.`writing into full/empty buffer with below cases`
+   `writing lesser than data-size`
+   `writing size greater than data-size`
+   `replacing lesser than data-size`
+   `replacing size greater than data-size`
+4. `Reading into full/empty buffer with below cases`
+      `reading size greater than data-size`
+      `reading size lesser than data-size`
+5. `clear`
+      `clearing data size == datasize`
+      `clearing data size < datasize`
+6. `Read from empty buffer`
+7. `Clearing empty buffer`
